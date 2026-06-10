@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx skills *)",
+      "Read(//c/Users/ASUS/.agents/skills/powerpoint-ppt/**)",
+      "Bash(python \"C:\\\\Users\\\\ASUS\\\\.claude\\\\skills\\\\docx\\\\scripts\\\\office\\\\pack.py\" \"h:\\\\计算机游戏开发\\\\策划案\\\\汇报和作业提交\\\\unpacked/\" \"h:\\\\计算机游戏开发\\\\策划案\\\\汇报和作业提交\\\\糖战·胰岛防线_游戏策划文档_含目录.docx\" --original \"h:\\\\计算机游戏开发\\\\策划案\\\\汇报和作业提交\\\\糖战·胰岛防线_游戏策划文档.docx\")",
+      "Bash(python \"C:\\\\Users\\\\ASUS\\\\.claude\\\\skills\\\\docx\\\\scripts\\\\office\\\\pack.py\" \"h:\\\\计算机游戏开发\\\\策划案\\\\汇报和作业提交\\\\unpacked/\" \"h:\\\\计算机游戏开发\\\\策划案\\\\汇报和作业提交\\\\糖战·胰岛防线_游戏策划文档_含目录.docx\" --original \"h:\\\\计算机游戏开发\\\\策划案\\\\汇报和作业提交\\\\糖战·胰岛防线_游戏策划文档.docx\" --validate false)",
+      "Bash(python \"C:\\\\Users\\\\ASUS\\\\.claude\\\\skills\\\\docx\\\\scripts\\\\office\\\\unpack.py\" \"h:\\\\计算机游戏开发\\\\策划案\\\\汇报和作业提交\\\\糖战·胰岛防线_游戏策划文档_含目录.docx\" \"h:\\\\计算机游戏开发\\\\策划案\\\\汇报和作业提交\\\\verify_unpacked/\")",
+      "Bash(pandoc \"h:\\\\计算机游戏开发\\\\策划案\\\\汇报和作业提交\\\\糖战·胰岛防线_游戏策划文档_含目录.docx\" -o \"h:\\\\计算机游戏开发\\\\策划案\\\\汇报和作业提交\\\\verify_output.md\")"
+    ]
+  }
+}
